@@ -1,0 +1,9 @@
+@import '@/assets/scss/vars';
+@import '@/assets/scss/mixins';
+
+$root: '.icon';
+#{$root} {
+  width: 18px;
+  min-width: 18px;
+  height: 18px;
+}

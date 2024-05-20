@@ -1,0 +1,16 @@
+@import '@/assets/scss/vars';
+@import '@/assets/scss/mixins';
+
+$root: '.settings';
+#{$root} {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  &__dropdown {
+    @include breakpoint_MaxWidth($bp-430) {
+      max-width: none;
+    }
+  }
+}

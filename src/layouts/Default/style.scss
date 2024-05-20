@@ -1,0 +1,10 @@
+@import '@/assets/scss/vars';
+
+$root: '.application';
+#{$root} {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $white;
+}
