@@ -17,9 +17,7 @@ const props = withDefaults(defineProps<IProps>(), {
     <span v-if="props.itemData.price.old_price" class="card__discount">
       Скидка
     </span>
-    <div class="card__poster">
-      <img class="card__poster__img" :src="props.itemData.image.url" alt="изображение" />
-    </div>
+    <img class="card__img" :src="props.itemData.image.url" alt="изображение" />
     <div class="card__info">
       <span class="card__info__code">
         {{props.itemData.code}}
