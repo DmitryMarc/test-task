@@ -4,10 +4,13 @@
 
 <img src="test_task_description.png" alt="screen" width="100%"/>
 
-Рабочая версия приложение находится по ссылке: [Какая-то ссылка](https://google.com)
-
+Рабочая версия приложения находится по ссылке: [https://test-task-dmitrymarcs-projects.vercel.app/](https://test-task-dmitrymarcs-projects.vercel.app/)
 
 ## Запуск приложения
+Скачать zip-архив с репозитория [GitHub](https://github.com/DmitryMarc/test-task) и распаковать, либо через консоль выполнить следующую команду:
+```
+git clone https://github.com/DmitryMarc/test-task.git
+```
 Находясь внутри папки с проектом, установить зависимости
 ```
 npm i
