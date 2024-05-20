@@ -4,6 +4,8 @@
 
 <img src="test_task_description.png" alt="screen" width="100%"/>
 
+Ссылка на макет: [Макет](https://www.figma.com/design/9Gcg8EvnmTDppPDxvRrmpi/Тестовое-задание-17-июля?node-id=1-23)
+
 Рабочая версия приложения находится по ссылке: [https://test-task-dmitrymarcs-projects.vercel.app/](https://test-task-dmitrymarcs-projects.vercel.app/)
 
 ## Запуск приложения
