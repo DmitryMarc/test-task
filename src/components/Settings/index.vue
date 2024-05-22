@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue";
-import Dropdown from '@/components/ui/Dropdown/index.vue'
+import {Dropdown} from '@/components/ui';
 import {materials, sortings} from '@/assets/mocks';
 import {useCards} from "@/stores/Cards.ts";
 import type {MaterialType, SortingType} from "@/assets/@types/mocks.ts";

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import type {IProps} from './types.ts';
-import Icon from '@/components/ui/Icon/index.vue';
+import {Icon} from '@/components/ui';
 
 const emit = defineEmits<{
   (e: 'update', value: { key: string; value: unknown }): void
